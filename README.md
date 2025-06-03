@@ -3,7 +3,7 @@
 ## OOP
 
 1. Abstraction
-2. Enkapsulation
+2. Encapsulation
 3. Inheritance
 4. Polymorphism
 
