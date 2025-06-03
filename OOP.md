@@ -49,6 +49,28 @@ Room class:
 
 ## Inheritance
 
+Inheritance means:
+- Create a new class that reuses the fields and methods of an existing class. 
+- Reuse code from base class in child class.
+
+This is important to:
+- Avoid code duplication 
+- grup related type
+- Extend base behavoir
+
+Example:
+Base Class: Staff 
+Child Class: Receptionist & Cleaner 
+
+Staff: 
+- Property: Name 
+-Method: Clockln()
+
+Receptionist inherist from Staff
+-Method: CheckInGuest()
+
+Cleaner inherist from Staff
+-Method: CleanRoom
 ## Polymorphism
 
 
