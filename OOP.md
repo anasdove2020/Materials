@@ -56,20 +56,22 @@ Inheritance means:
 This is important to:
 - Avoid code duplication 
 - grup related type
-- Extend base behavoir
+- Extend base behavior
 
 Example:
-Base Class: Staff 
+
+Base Class: Staff
+ 
 Child Class: Receptionist & Cleaner 
 
 Staff: 
 - Property: Name 
--Method: Clockln()
+- Method: Clockln()
 
-Receptionist inherist from Staff
+Receptionist inherist from Staff:
 - Method: CheckInGuest()
 
-Cleaner inherist from Staff
+Cleaner inherist from Staff:
 - Method: CleanRoom
 ## Polymorphism
 
