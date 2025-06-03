@@ -7,7 +7,7 @@
 3. Inheritance
 4. Polymorphism
 
-## Solid
+## SOLID
 
 1. Single Responsibility
 2. Open Close Principle
@@ -15,7 +15,7 @@
 4. Interface Segregation
 5. Dependency Inversion
 
-## Net
+## NET
 
 1. Intermediate Language
 2. CLR(Common Language Runtime)
