@@ -1,11 +1,11 @@
 # SOLID
 
-## Single Responsibility
+## Single Responsibility Principle
 
-## Open Close Principle
+## Open Close Principle Principle
 
-## Liskov Substitution
+## Liskov Substitution Principle
 
-## Interface Segregation
+## Interface Segregation Principle
 
-## Dependency Inversion
+## Dependency Inversion Principle
