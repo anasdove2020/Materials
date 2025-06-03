@@ -11,7 +11,7 @@ Using OOP
 2. We create object (real items) from defined class
 3. We organize our code like real-world things in a hotel
 
-It means with OOP, our code becomes easier to manage, reusable and closer to real life.
+It means with OOP, our code becomes easier to manage, reusable and closer to real life. OOP makes code easier to organise because it groups related group together, like putting everything about a Room in one place. Reusable because the class can be used in another sytem.
 
 Room Class
 Data: Room Number, Room Type, and IsAvailable
