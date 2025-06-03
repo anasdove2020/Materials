@@ -33,7 +33,7 @@
 3. Access Modifier
 4. Interface 
 5. Abstact
-6, Constructor
+6. Constructor
 7. collection
 8. IEnumerable
 9. IQueryable
