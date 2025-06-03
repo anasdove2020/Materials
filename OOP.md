@@ -67,10 +67,10 @@ Staff:
 -Method: Clockln()
 
 Receptionist inherist from Staff
--Method: CheckInGuest()
+- Method: CheckInGuest()
 
 Cleaner inherist from Staff
--Method: CleanRoom
+- Method: CleanRoom
 ## Polymorphism
 
 
