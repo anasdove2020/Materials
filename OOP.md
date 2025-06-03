@@ -25,10 +25,15 @@ Hotel Class
 Data: Hotel Name, Address, List of Room
 Function: GetAvailableRooms(), AddGuest()
 
-
-
-
 ## Abstraction
+
+Abstraction means:
+
+- Show the "what", Hide the "how"
+- Show only what is needed
+- Hide complex internal details
+
+Foe example, a guest wants to book room. They just call asimple method like bookRoom(). they don't need to know how rooms are stored, how room availability is checked, and how booking is saved in the database. This is useful because the guest or developer uses a simple interface, the messy logic is hidden (abstracted away), and if the internal logic changes later, the rest of the code does not need to change.
 
 ## Encapsulation
 
