@@ -25,7 +25,7 @@ Hotel Class
 Data: Hotel Name, Address, List of Room
 Function: GetAvailableRooms(), AddGuest()
 
-## Abstraction
+## Abstraction      
 
 Abstraction means:
 
@@ -36,6 +36,16 @@ Abstraction means:
 Foe example, a guest wants to book room. They just call asimple method like bookRoom(). they don't need to know how rooms are stored, how room availability is checked, and how booking is saved in the database. This is useful because the guest or developer uses a simple interface, the messy logic is hidden (abstracted away), and if the internal logic changes later, the rest of the code does not need to change.
 
 ## Encapsulation
+
+Encapsulation means:
+- Bundle data menthod together inside a class
+- Protect the data from being accessed oor changed directly from outside 
+
+It is useful because we keep important data private and expose only safe (public) methods to control how the data is changed. Encapsulation keeps our system secure, consistent, and easier to maintain.
+
+For example:
+Room class: 
+- We protect the isBooked data so it cannot be accessed or changed directly from outside. instead, we expose a Book() menthod to update the value using business logic (e.g., check availability before booking)
 
 ## Inheritance
 
