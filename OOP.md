@@ -78,7 +78,7 @@ Cleaner inherist from Staff:
 
 Polymorphis means:
 - One method can have different behavior depending on which class is using it.
-- Word poly = many, morph =  form, so many from of the same method
+- Word poly = many, morph =  form, so many form of the same method
 
 it is useful because code becomes flexible, reusable, and easier to extend. In c#, use virtual in base class and override in derived class.
 
