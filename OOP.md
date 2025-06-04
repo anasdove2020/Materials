@@ -140,3 +140,34 @@ Cleaner is cleaning the rooms.
 
 Even though we call the same method work(), it behaves differently based on the actual class.
 
+### Polymorphism Type
+
+1. Override 
+-- Same method name, different behavior in child class
+-- Runtime Polymorphism
+-- In c#: virtual, override
+
+2. Overload 
+-- Same method name, different parameters 
+-- Compile time Polymorphism
+
+```
+public class BookingService
+{
+    public void BookRoom() // no parameters
+    {
+        Console.WriteLine("Booking a standard room.");
+    }
+
+    public void BookRoom(string roomType) // one parameter
+    {
+        Console.WriteLine($"Booking a {roomType} room.");
+    }
+
+    public void BookRoom(string roomType, int nights) // two parameters
+    {
+        Console.WriteLine($"Booking a {roomType} room for {nights} nights.");
+    }
+}
+```
+
