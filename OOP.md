@@ -145,15 +145,15 @@ Even though we call the same method work(), it behaves differently based on the 
 1. Override 
 
 
--- Same method name, different behavior in child class
--- Runtime Polymorphism
--- In c#: virtual, override
+- Same method name, different behavior in child class
+- Runtime Polymorphism
+- In c#: virtual, override
 
 2. Overload
 
  
--- Same method name, different parameters 
--- Compile time Polymorphism
+- Same method name, different parameters 
+- Compile time Polymorphism
 
 ```
 public class BookingService
