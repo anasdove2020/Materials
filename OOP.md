@@ -73,6 +73,70 @@ Receptionist inherist from Staff:
 
 Cleaner inherist from Staff:
 - Method: CleanRoom
+
 ## Polymorphism
 
+Polymorphis means:
+- One method can have different behavior depending on which class is using it.
+- Word poly = many, morph =  from, so many from of the same method
+
+it is useful because code becomes flexible, reusable, and easier to extend. In c#, use virtual in base class and override in derived class.
+
+Example:
+
+Create a base class:
+
+```
+public class Staff
+{
+    public virtual void Work()
+    {
+        Console.WriteLine("Staff is working.");
+    }
+}
+```
+
+Now we create subclasses with different behavior
+
+```
+public class Receptionist : Staff
+{
+    public override void Work()
+    {
+        Console.WriteLine("Receptionist is checking in guests.");
+    }
+}
+
+public class Cleaner : Staff
+{
+    public override void Work()
+    {
+        Console.WriteLine("Cleaner is cleaning the rooms.");
+    }
+}
+```
+
+Using polymorphism:
+
+```
+List<Staff> staffList = new List<Staff>
+{
+    new Receptionist(),
+    new Cleaner()
+};
+
+foreach (Staff staff in staffList)
+{
+    staff.Work();  // Will call the correct version!
+}
+```
+
+Outout:
+
+
+Receptionist is checking in guests.
+
+Cleaner is cleaning the rooms.
+
+Even though we call the same method work(), it behaves differently based on the actual class.
 
