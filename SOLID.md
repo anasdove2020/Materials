@@ -7,6 +7,13 @@ A set of 5 design principles in OOP to help use write clean, flexible, and maint
 SRP means:
 - A class should have only one reason to change.
 
+It is useful:
+- Easier to maintain
+  - Each class does only one thing.
+  - If booking logic changes => change only RoomService
+  - If DB query changes => change only RoomRepository
+  - We don't break unrelated code by accident
+
 Example:
 1. RoomRepository
 
