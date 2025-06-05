@@ -13,6 +13,13 @@
 
 ## Abstact
 
+- Define shared logic
+- Force derived class to implement specific methods
+
+It is useful:
+- We want common code in one place.
+- Allow extension in child classes.
+
 ## Constructor
 
 ## Collection
