@@ -37,8 +37,21 @@ import React, { useEffect } from 'react';
 ```
 
 Dependency array:
+- Tells React when to run the code inside useEffect
 - Blank : Run only once
 - [count] : Runs every time "count" changes
+
+Mount + Unmount:
+```
+  useEffect(() => {
+    console.log('Hello! I am mounted.');
+
+    return () => {
+      console.log('Goodbye! I am unmounted.');
+    };
+  }, []); // [] = run effect only once, cleanup on unmount
+}
+```
 
 3. useRef
 4. useContext
