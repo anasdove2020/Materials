@@ -14,17 +14,43 @@
 
 ## Interface
 
-- Define what class should do
-- Allow each class to decide how it will do it
+- Define a contract (specify what class should do)
+- Enable polymorphism (different class can implement the same interface)
+- Allow multiple inheritance
+- Define what to do, not how (enable flexible, maintainable, and testable code)
 
 ## Abstact
 
-- Define shared logic
+- It meant to be a base class for other classes
+- Define shared logic or common base functionality
+- Partial implementation
 - Force derived class to implement specific methods
 
 It is useful:
 - We want common code in one place.
 - Allow extension in child classes.
+
+## Virtual
+
+- Base class gives default behavior
+- Derived class can override the method to provide their own specialized behavior
+- Enable polymorphism with default implementation
+
+## Read Only
+
+- Field can only be assigned once (when it's declared or inside constructor)
+- After that value can't be changed
+- To make data immutable after initialization
+- Protect important data from accidental changes
+
+## Const
+
+- Value must be assigned at declaration
+- Value cannot change anywhere in code
+
+## Static
+
+- A member (class, property, method) belongs to the type itself, not to an instance of the class
 
 ## Constructor
 
