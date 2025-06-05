@@ -54,6 +54,17 @@ It is useful:
 
 ## Constructor
 
+- Special method that is automatically called when a new instance of a class is created.
+- Used to initialize object.
+
+Type:
+1. Default (no parameter)
+2. Parameterized (accept parameter to initialize fields)
+3. Copy (Manually created, initialized object by copying another object's value)
+4. Static (System configuration, HotelSettings.SystemName)
+5. Private (Prevent object creation from outside the class, used in Singleton, ex: Math, Utils)
+6. Chained
+
 ## Collection
 
 ## IEnumerable
