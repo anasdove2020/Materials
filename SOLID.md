@@ -104,6 +104,13 @@ public class PaymentService
     }
 }
 ```
+- Use it anywhere (Plug and Play) style
+```
+var service = new PaymentService();
+
+service.ProcessPayment(new CreditCardPayment(), 100);
+service.ProcessPayment(new PayPalPayment(), 200);
+```
 
 ## Liskov Substitution Principle
 
