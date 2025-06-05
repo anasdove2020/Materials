@@ -120,8 +120,154 @@ function Toolbar() {
 ```
 
 5. useReducer
+
+Means:
+- Hooks that helps us manage more complex state logic than useState
+- Powerful version of useState
+- Instead just setting state, we dispatch actions describing what happened.
+- A reducer function decides how to update the state based on those actions.
+
+Example:
+- Basic syntax:
+```
+const [state, dispatch] = useReducer(reducer, initialState);
+```
+
+Means:
+- state: current state object/value
+- dispatch: function to send an action to update state
+- reducer: function(state, action) => newState
+- initialState: starting value of state
+
+Simple example (Counter):
+```
+import React, { useReducer } from 'react';
+
+function reducer(state, action) {
+  switch (action.type) {
+    case 'increment':
+      return { count: state.count + 1 };
+    case 'decrement':
+      return { count: state.count - 1 };
+    case 'reset':
+      return { count: 0 };
+    default:
+      return state;
+  }
+}
+
+function Counter() {
+  const [state, dispatch] = useReducer(reducer, { count: 0 });
+
+  return (
+    <div>
+      <p>Count: {state.count}</p>
+      <button onClick={() => dispatch({ type: 'increment' })}>+1</button>
+      <button onClick={() => dispatch({ type: 'decrement' })}>-1</button>
+      <button onClick={() => dispatch({ type: 'reset' })}>Reset</button>
+    </div>
+  );
+}
+
+export default Counter;
+```
+
 6. useMemo
+
+Means:
+- A react hook that helps optimize performance by memoizing expensive calculations.
+- It remembers the result of calculation.
+- Only recomputes when its dependencies change.
+- Avoid re-doing heavy work on every render.
+
+Syntax:
+```
+const memoizedValue = useMemo(() => {
+  // expensive calculation
+  return someValue;
+}, [dependencies]);
+```
+
+Example (Expensive Calculation):
+```
+import React, { useState, useMemo } from 'react';
+
+function factorial(n) {
+  console.log('Calculating factorial...');
+  return n <= 1 ? 1 : n * factorial(n - 1);
+}
+
+function FactorialCalculator() {
+  const [number, setNumber] = useState(5);
+  const [dummy, setDummy] = useState(false);
+
+  const fact = useMemo(() => factorial(number), [number]);
+
+  return (
+    <div>
+      <input
+        type="number"
+        value={number}
+        onChange={(e) => setNumber(+e.target.value)}
+      />
+      <p>Factorial: {fact}</p>
+
+      <button onClick={() => setDummy(!dummy)}>
+        Re-render without changing number
+      </button>
+    </div>
+  );
+}
+
+export default FactorialCalculator;
+```
+
 7. useCallback
+
+Means:
+- A react hook closely to useMemo, but for functions.
+- It memoize a function, so React re-creates it only when dependency change.
+- Helps optimize performance
+
+Syntax:
+```
+const memoizedCallback = useCallback(() => {
+  // function code here
+}, [dependencies]);
+```
+
+Example (Optimizing child component render):
+```
+import React, { useState, useCallback } from 'react';
+
+function Button({ onClick, children }) {
+  console.log('Button render:', children);
+  return <button onClick={onClick}>{children}</button>;
+}
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  const [other, setOther] = useState(false);
+
+  // Without useCallback, handleClick is recreated every render
+  const handleClick = useCallback(() => {
+    setCount(c => c + 1);
+  }, []); // no dependencies → never re-created
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <Button onClick={handleClick}>Increment</Button>
+
+      <button onClick={() => setOther(o => !o)}>
+        Toggle Other State
+      </button>
+    </div>
+  );
+}
+
+export default Counter;
+```
 
 ## Component Communication
 
