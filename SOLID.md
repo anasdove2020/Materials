@@ -114,6 +114,63 @@ service.ProcessPayment(new PayPalPayment(), 200);
 
 ## Liskov Substitution Principle
 
+LSP means:
+- Subclass must replace parent class without breaking the program
+- Subclass must behave like its parent
+- Subclass works just like the base class
+
+It is useful:
+- Ensure safe inheritance
+- Makes code predictable and replacable
+- Helps create reliable plug and play components
+
+Example:
+- Create a base class or interface
+```
+public interface IPaymentMethod
+{
+    void Pay(decimal amount);
+}
+```
+
+- Implement child class
+```
+public class CreditCardPayment : IPaymentMethod
+{
+    public void Pay(decimal amount)
+    {
+        Console.WriteLine($"Paying {amount} using credit card");
+    }
+}
+
+public class PayPalPayment : IPaymentMethod
+{
+    public void Pay(decimal amount)
+    {
+        Console.WriteLine($"Paying {amount} using PayPal");
+    }
+}
+```
+
+- Use the interface in the service
+```
+public class PaymentService
+{
+    public void MakePayment(IPaymentMethod method, decimal amount)
+    {
+        method.Pay(amount);
+    }
+}
+```
+
+- This must be working
+```
+var service = new PaymentService();
+
+service.MakePayment(new CreditCardPayment(), 100); // ✅ OK
+service.MakePayment(new PayPalPayment(), 150);     // ✅ OK
+```
+
 ## Interface Segregation Principle
 
 ## Dependency Inversion Principle
