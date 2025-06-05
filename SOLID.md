@@ -13,6 +13,8 @@ It is useful:
   - If booking logic changes => change only RoomService
   - If DB query changes => change only RoomRepository
   - We don't break unrelated code by accident
+- Easier to test
+- Easier for teamwork
 
 Example:
 1. RoomRepository
