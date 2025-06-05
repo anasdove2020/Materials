@@ -173,4 +173,22 @@ service.MakePayment(new PayPalPayment(), 150);     // ✅ OK
 
 ## Interface Segregation Principle
 
+ISP means:
+- Don't force a class to implement methods it does not need
+- Split big interface into smaller, more specific ones
+
+This is useful:
+- Classes are clean and focused
+- No useless or empty methods
+- Easy to maintain
+
 ## Dependency Inversion Principle
+
+DIP means:
+- High level modules should not depend on low level modules
+- Both should depend on abstractions (like interface)
+
+It is useful:
+- Plug and play style
+- Easy to test (inject a fake/mock message sender)
+- Reusable
