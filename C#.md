@@ -9,7 +9,7 @@
 2. Private (Accessible only within containing class)
 3. Protected (Accessible within containing class and by derived class)
 4. Internal (Accessible only within the same assembly/project)
-5. Protected Internal (Accessible from derived class <same assembly or different assembly> or any class in the same assembly)
+5. Protected Internal (Accessible from derived class {same assembly or different assembly} or any class in the same assembly)
 6. Private Protected (Accessible within the containing class or derived class only if they are in same assembly)
 
 ## Interface
