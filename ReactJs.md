@@ -2,6 +2,9 @@
 
 ## Hooks
 
+Means:
+A Hook is a special function in React that lets you “hook into” React features like state, lifecycle, context, etc. — without writing a class component.
+
 1. useState
 
 Means:
