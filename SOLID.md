@@ -94,6 +94,16 @@ public class PayPalPayment : IPaymentMethod
     }
 }
 ```
+- Main service uses abstraction
+```
+public class PaymentService
+{
+    public void ProcessPayment(IPaymentMethod method, decimal amount)
+    {
+        method.Pay(amount);
+    }
+}
+```
 
 ## Liskov Substitution Principle
 
