@@ -54,7 +54,71 @@ Mount + Unmount:
 ```
 
 3. useRef
+
+Means:
+- A hook that gives us container or box that can hold a value.
+- Does not cause rerender
+- remember the value accross render
+- Can be used to access DOM elements
+
+Access DOM element:
+```
+import React, { useRef, useEffect } from 'react';
+
+function InputFocus() {
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    inputRef.current.focus(); // focus the input box on load
+  }, []);
+
+  return <input ref={inputRef} placeholder="I will be focused" />;
+}
+```
+
+Note:
+- Super useful when we want to interact with a DOM element directly (e.g, focus, scroll, measure size, etc)
+
 4. useContext
+
+Means:
+- Super useful hook for sharing data between components without passing props manually at every level.
+- Let us get a value from React Context
+- React context is global variable for our component tree, like:
+   - Current user
+   - Theme (dark/light)
+   - Language (i18n)
+   - Authentication status
+ 
+Example (Theme):
+- Create a context
+```
+import React from 'react';
+
+const ThemeContext = React.createContext('light'); // default: 'light'
+```
+
+- Provide a value
+```
+function App() {
+  return (
+    <ThemeContext.Provider value="dark">
+      <Toolbar />
+    </ThemeContext.Provider>
+  );
+}
+```
+
+- Use context in child component
+```
+import React, { useContext } from 'react';
+
+function Toolbar() {
+  const theme = useContext(ThemeContext); // Access the context value
+  return <div>The current theme is: {theme}</div>;
+}
+```
+
 5. useReducer
 6. useMemo
 7. useCallback
