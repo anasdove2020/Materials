@@ -116,8 +116,7 @@ service.ProcessPayment(new PayPalPayment(), 200);
 
 LSP means:
 - Subclass must replace parent class without breaking the program
-- Subclass must behave like its parent
-- Subclass works just like the base class
+- Subclass must behave or work like its parent class
 
 It is useful:
 - Ensure safe inheritance
