@@ -1,6 +1,6 @@
 # SOLID
 
-A set of 5 design principles in OOP to help use write clean, flexible, and maintainable code.
+A set of 5 design principles in OOP to help us write clean, flexible, and maintainable code.
 
 ## Single Responsibility Principle
 
