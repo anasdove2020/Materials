@@ -141,8 +141,8 @@ const boxStyle = ref({
 ### v-model
 
 v-model means: 
-- Creates two-way binding between a from input our data.
-- When user type in input, the data updates
+- Creates two-way binding between a form input and our data.
+- When user types in the input, the data updates
 - When the data changes, the input updates too
 
 1. Text Input 
