@@ -304,7 +304,7 @@ const fruits = ref(['Apple', 'Banana', 'Cherry']);
 </script>
 ```
 
-### V-ON 
+### v-on
 
 V-on means:
 - Used to listen to events (like click, input, submit, etc)
@@ -329,15 +329,15 @@ function increment() {
 ```
 
 Why use count.value in script:
-- In Composition API, when we create a reactive primitive (like number or dtring) using ref (), vue wraps it in a reactive objeck
+- In Composition API, when we create a reactive primitive (like number or sring) using ref (), vue wraps it in a reactive objec
 
 ```
 const count = ref(0);
 ```
 
-```
+
 this means:
-```
+
 
 ```
 { value: 0 }
