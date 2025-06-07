@@ -65,7 +65,7 @@ export default {
 
 ## Single File Component - CompositionAPI
 - Write component without returning anything from the setup() function
-- This is possible because of <script></script>, which is a compiler macro that makes composition API code simpler and more concise.
+- This is possible because of <script setup>, which is a compiler macro that makes composition API code simpler and more concise.
 
 ```
 <!-- Counter.vue -->
