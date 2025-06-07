@@ -344,7 +344,17 @@ this means:
 ```
 
 
+## Make Data Reactive
 
+In vue 3 Composition API, we can use ref() or reactive () to make data reactivi.
+
+1. ref()
+
+Use it when we're tracking a single value like a number, sting, or boolean
+
+2. reactive
+
+Use it when we want to make an entire object or array reactive
 
 
 
