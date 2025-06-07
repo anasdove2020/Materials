@@ -234,6 +234,116 @@ const selectedFruit = ref('');
 </script>
 ```
 
+### v-if 
+
+v-if means:
+- Show or hides an element based on a condition 
+- If true, vue renders the element
+- If false, vue removes the element from the page (DOM)
+
+```
+<template>
+  <input v-model="status" placeholder="Type: new, pending, or done" />
+
+  <p v-if="status === 'new'">🆕 Status is New</p>
+  <p v-else-if="status === 'pending'">⏳ Status is Pending</p>
+  <p v-else-if="status === 'done'">✅ Status is Done</p>
+  <p v-else>❓ Unknown status</p>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const status = ref('');
+</script>
+```
+### v-show
+
+v-show means:
+- Show or hide an element by toggiling CSS display property
+- If true, the element is visible
+- If false, element still display in DOM but is hidden (display: none )
+
+```
+<template>
+  <button @click="isVisible = !isVisible">
+    Toggle Message
+  </button>
+
+  <p v-show="isVisible">This message is visible when isVisible is true.</p>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const isVisible = ref(true);
+</script>
+```
+
+### v-for
+
+v-for means:
+- Used to render a list of items by looping over an array or object
+- It repeats an element for each item in the list 
+- Always set :key. this is important to give each element unique identifier
+	- Vue used :key to track each item in a list 
+	- Especially when list is updated (added, removed, reordered)
+	- Help vue to identify which item changed, reuse DOM element efficiently
+
+```
+<template>
+  <ul>
+    <li v-for="fruit in fruits" :key="fruit">{{ fruit }}</li>
+  </ul>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const fruits = ref(['Apple', 'Banana', 'Cherry']);
+</script>
+```
+
+### V-ON 
+
+V-on means:
+- Used to listen to events (like click, input, submit, etc)
+- Shorthand: @event (ex: @click is the same as v-on:click)
+
+```
+<template>
+  <button @click="increment">
+    Clicked {{ count }} times
+  </button>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const count = ref(0);
+
+function increment() {
+  count.value++;
+}
+</script>
+```
+
+Why use count.value in script:
+- In Composition API, when we create a reactive primitive (like number or dtring) using ref (), vue wraps it in a reactive objeck
+
+```
+const count = ref(0);
+```
+
+```
+this means:
+```
+
+```
+{ value: 0 }
+```
+
+
 
 
 
