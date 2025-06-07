@@ -58,4 +58,21 @@ export default {
   }
 };
 ```
+
+## Single File Component - CompositionAPI
+- Write componenst without returning anything from the setup() function
+- This is possible because of <script></script>, which is a compiler macro that makes composition API code simpler and more concise.
+
+```
+<!-- Counter.vue -->
+<template>
+  <button @click="count++">Count: {{ count }}</button>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const count = ref(0); // No need to return it — automatically available in <template>
+</script>
+```
 	
