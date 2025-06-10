@@ -7,6 +7,9 @@
 5. Model View Controller (MVC)
 6. Master Slave Architecture
 
+![image](https://github.com/user-attachments/assets/b0983816-cbb0-4e67-bf32-f3b32af6812c)
+
+
 ## Event Driven Architecture
 
 - Decoupled Components
