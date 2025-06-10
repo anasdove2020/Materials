@@ -1,7 +1,7 @@
 # Software Architectural Pattern
 
 This means:
-- Basic design idea used to organize and structure a software system.
+- ***Basic design idea*** used to organize and structure a software system.
 - It helps decide how parts of the system talk each other.
 - It is like blueprint for building software.
 
