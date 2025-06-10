@@ -1,5 +1,10 @@
 # Software Architectural Pattern
 
+This means:
+- Basic design idea used to organize and structure a software system.
+- It helps decide how parts of the system talk each other.
+- It is like blueprint for building software.
+
 1. Event Driven Architecture
 2. Layered Architecture
 3. Monolithic Architecture
