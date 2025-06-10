@@ -20,6 +20,56 @@ This means:
 - Decoupled Components
 - Asyncronous Communication
 
+```
+using System;
+
+// 1. Define the event and data
+public class UserEventArgs : EventArgs
+{
+    public string Email { get; set; }
+}
+
+// 2. Publisher - raises the event
+public class UserService
+{
+    public event EventHandler<UserEventArgs> UserRegistered;
+
+    public void RegisterUser(string email)
+    {
+        Console.WriteLine($"User {email} registered.");
+        
+        // Raise the event
+        UserRegistered?.Invoke(this, new UserEventArgs { Email = email });
+    }
+}
+
+// 3. Subscriber - listens and reacts to the event
+public class EmailService
+{
+    public void OnUserRegistered(object sender, UserEventArgs e)
+    {
+        Console.WriteLine($"Sending welcome email to {e.Email}");
+    }
+}
+
+// 4. Connect everything
+class Program
+{
+    static void Main()
+    {
+        var userService = new UserService();
+        var emailService = new EmailService();
+
+        // Subscribe to the event
+        userService.UserRegistered += emailService.OnUserRegistered;
+
+        // Trigger the event
+        userService.RegisterUser("test@example.com");
+    }
+}
+
+```
+
 Good for Application:
 - Event trigger action application
 - Promoting scalability and responsiveness
