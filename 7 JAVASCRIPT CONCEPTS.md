@@ -1,4 +1,4 @@
-# JavaScript Concepts to Master Before React 
+# 7 JavaScript Concepts to Master Before React 
 
 Table of contents:
 1. Arrow Functions
