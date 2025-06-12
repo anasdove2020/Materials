@@ -17,3 +17,13 @@ Arrow function provide a concise way to write function expressions.
 const greet = name => 'Hello, ${name}!';
 consule.log(greet('React Developer'));
 ```
+
+## 2. Map and Filter 
+
+Map creates a new array by transforming each element, while Filter creates a new array with elements that pass a test.
+
+```
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map(num => num * 2);
+const evens = numbers,filter(num => num % 2 === 0);
+```
