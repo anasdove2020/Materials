@@ -70,6 +70,10 @@ Seems desperate, rather  than genuinely interested
 
 On the flip side, don't just say weaknesses without also showing growth
 
+### *Say:* 
+
+"Time management has been a focus for me - I now use X tools to stay organized and hit deadlines"
+
 
 
 
