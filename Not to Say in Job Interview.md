@@ -9,3 +9,7 @@
 ### *Why:*
 
 "That's a big missed opportunity - and red flag in terms of your curiosity"
+
+### *Say* 
+
+"What would success look like in the first 6 months if this role?"
