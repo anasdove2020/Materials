@@ -25,3 +25,9 @@ Suggests a lack of preparation and interest in the role
 ### *Say:*
 
 "I've researched the company and I'm particularly impressed with X - I'd love to hear your perspective in it"
+
+### *Don't say:*
+
+"I don't have weaknessess"
+
+
