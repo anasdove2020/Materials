@@ -62,5 +62,9 @@ Seems desperate, rather  than genuinely interested
 
 "I'm looking to use XYZ strengths, and I'm excited about how this role aligns"
 
+### *Don't say:* 
+
+"I'm not great at time management"
+
 
 
