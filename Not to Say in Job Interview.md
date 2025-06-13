@@ -110,6 +110,10 @@ You can get this answered without sounding like you care more about pay than the
 
 "I'm excited about this and I'd love to understand the comp tange to ensure it fits my expectations"
 
+### *Don't say:* 
+
+"I know I'm underqualified, but....."
+
 
 
 
