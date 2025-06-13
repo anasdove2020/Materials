@@ -90,6 +90,10 @@ Most employers preferto see a degree of hunger to learn and grow
 
 "I hated my last boss"
 
+### *Why:* 
+
+Never bash a former boss to a future boss 
+
 
 
 
