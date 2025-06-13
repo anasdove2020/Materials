@@ -124,11 +124,11 @@ Don't undercut yourself-focus on your strengths
 
 ### *Don't say:* 
 
-"When can i get prometed?"
+"When can I get promoted?"
 
 ### *Why:* 
 
-In constrast to the last one, blatant climbing isn't ideal either 
+In contrast to the last one, blatant climbing isn't ideal either 
 
 ### *Say:* 
 
