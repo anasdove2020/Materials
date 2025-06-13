@@ -13,3 +13,7 @@
 ### *Say:* 
 
 "What would success look like in the first 6 months if this role?"
+
+### *Don't say:*
+
+"i don't know much about your company"
