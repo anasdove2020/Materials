@@ -130,6 +130,11 @@ Don't undercut yourself-focus on your strengths
 
 In constrast to the last one, blatant climbing isn't ideal either 
 
+### *Say:* 
+
+"What does career growth look like, and how are employees supported in reaching their potential?"
+
+
 
 
 
