@@ -94,6 +94,10 @@ Most employers preferto see a degree of hunger to learn and grow
 
 Never bash a former boss to a future boss 
 
+### *Say;* 
+
+"I learned a lot in my previous job, especially about X, but I'm excited for a new challenge now"
+
 
 
 
