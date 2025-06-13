@@ -82,6 +82,10 @@ On the flip side, don't just say weaknesses without also showing growth
 
 Most employers preferto see a degree of hunger to learn and grow 
 
+### *Say:* 
+
+"My short - term goal is to excel in this role, and long - term, I aim to grow in X areas" 
+
 
 
 
