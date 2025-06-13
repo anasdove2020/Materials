@@ -5,3 +5,7 @@
 ### *Don't say:*
 
 "I don't have questions"  
+
+### *Why:*
+
+"That's a big missed oppotunity - and red flag in terms of your curiosity"
