@@ -106,6 +106,10 @@ Never bash a former boss to a future boss
 
 You can get this answered without sounding like you care more about pay than the role itself
 
+### *Say:*
+
+"I'm excited about this and I'd love to understand the comp tange to ensure it fits my expectations"
+
 
 
 
