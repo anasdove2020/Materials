@@ -42,4 +42,11 @@ This seems arrogant and like you lack self - awareness
 
 "I was fired from my previous role"
 
+### *why:*
+
+Fair or not, being fired carries a stigma 
+
+### *Say:*
+
+"My previous role ended unexpectedly, but it gave me the chance to reflect and strengthen my skills in X"
 
