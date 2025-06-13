@@ -8,4 +8,4 @@
 
 ### *Why:*
 
-"That's a big missed oppotunity - and red flag in terms of your curiosity"
+"That's a big missed opportunity - and red flag in terms of your curiosity"
