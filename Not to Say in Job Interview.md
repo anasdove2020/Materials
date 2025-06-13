@@ -30,4 +30,8 @@ Suggests a lack of preparation and interest in the role
 
 "I don't have weaknessess"
 
+### *Why*:
+
+This seems arrogant and like you lack self - awareness
+
 
