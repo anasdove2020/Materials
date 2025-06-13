@@ -66,5 +66,10 @@ Seems desperate, rather  than genuinely interested
 
 "I'm not great at time management"
 
+### *Why:* 
+
+On the flip side, don't just say weaknesses without also showing growth
+
+
 
 
