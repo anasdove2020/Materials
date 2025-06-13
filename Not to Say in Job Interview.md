@@ -17,3 +17,7 @@
 ### *Don't say:*
 
 "i don't know much about your company"
+
+### *Why:*
+
+Suggests a lack of preparation and interest in the role 
