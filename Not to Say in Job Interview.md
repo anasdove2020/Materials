@@ -102,6 +102,12 @@ Never bash a former boss to a future boss
 
 "How much does this job pay?"  
 
+### *Why:* 
+
+You can get this answered without sounding like you care more about pay than the role itself
+
+
+
 
 
 
