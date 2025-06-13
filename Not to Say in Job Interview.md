@@ -50,3 +50,9 @@ Fair or not, being fired carries a stigma
 
 "My previous role ended unexpectedly, but it gave me the chance to reflect and strengthen my skills in X"
 
+### *Don't say:* 
+
+"I'm looking for any job right now"
+
+
+
