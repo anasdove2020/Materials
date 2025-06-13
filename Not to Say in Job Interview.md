@@ -54,5 +54,9 @@ Fair or not, being fired carries a stigma
 
 "I'm looking for any job right now"
 
+### *Why:* 
+
+Seems desperate, rather  than genuinely interested
+
 
 
