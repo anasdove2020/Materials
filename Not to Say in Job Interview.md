@@ -114,6 +114,10 @@ You can get this answered without sounding like you care more about pay than the
 
 "I know I'm underqualified, but....."
 
+### *Why:* 
+
+Don't undercut yourself-focus on your strengths
+
 
 
 
