@@ -58,5 +58,9 @@ Fair or not, being fired carries a stigma
 
 Seems desperate, rather  than genuinely interested
 
+### *Say:*
+
+"I'm looking to use XYZ strengths, and I'm excited about how this role aligns"
+
 
 
