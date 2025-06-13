@@ -38,4 +38,8 @@ This seems arrogant and like you lack self - awareness
 
 "I've been working to improve on X recently, and after taking Y steps I've grown substantialy"
 
+### *Don't say:*
+
+"I was fired from my previous role"
+
 
