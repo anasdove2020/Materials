@@ -34,4 +34,8 @@ Suggests a lack of preparation and interest in the role
 
 This seems arrogant and like you lack self - awareness
 
+### *Say:* 
+
+"I've been working to improve on X recently, and after taking Y steps I've grown substantialy"
+
 
