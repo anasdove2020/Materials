@@ -116,7 +116,11 @@ You can get this answered without sounding like you care more about pay than the
 
 ### *Why:* 
 
-Don't undercut yourself-focus on your strengths
+Don't undercut yourself-focus on your strengths\
+
+### *Say:* 
+
+"I'm excited to use my experience to lean into the challenges of this role and learn and grow quickly"
 
 
 
