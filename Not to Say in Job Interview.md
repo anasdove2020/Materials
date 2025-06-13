@@ -16,7 +16,7 @@
 
 ### *Don't say:*
 
-"i don't know much about your company"
+"I don't know much about your company"
 
 ### *Why:*
 
@@ -80,11 +80,11 @@ On the flip side, don't just say weaknesses without also showing growth
 
 ### *Why:* 
 
-Most employers preferto see a degree of hunger to learn and grow 
+Most employers prefer to see a degree of hunger to learn and grow 
 
 ### *Say:* 
 
-"My short - term goal is to excel in this role, and long - term, I aim to grow in X areas" 
+"My short-term goal is to excel in this role, and long-term, I aim to grow in X areas" 
 
 ### *Don't say:* 
 
