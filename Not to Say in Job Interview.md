@@ -74,6 +74,14 @@ On the flip side, don't just say weaknesses without also showing growth
 
 "Time management has been a focus for me - I now use X tools to stay organized and hit deadlines"
 
+### *Don't say:*
+
+"I don't really have career goals"
+
+### *Why:* 
+
+Most employers preferto see a degree of hunger to learn and grow 
+
 
 
 
