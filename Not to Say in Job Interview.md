@@ -126,6 +126,11 @@ Don't undercut yourself-focus on your strengths
 
 "When can i get prometed?"
 
+### *Why:* 
+
+In constrast to the last one, blatant climbing isn't ideal either 
+
+
 
 
 
