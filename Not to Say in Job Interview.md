@@ -86,6 +86,10 @@ Most employers preferto see a degree of hunger to learn and grow
 
 "My short - term goal is to excel in this role, and long - term, I aim to grow in X areas" 
 
+### *Don't say:* 
+
+"I hated my last boss"
+
 
 
 
