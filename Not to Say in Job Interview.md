@@ -2,3 +2,6 @@
 ## And What to Say Instead
 
 
+### *Don't say:*
+
+I don't have questions  
