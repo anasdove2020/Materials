@@ -6,7 +6,7 @@ provides an interface for creating objects in a superclass but allows subclasses
 
 | << Interface >> Product Product |
 |---|
-
+|+ create[]: void|
 
 
 
