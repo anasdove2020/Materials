@@ -4,6 +4,8 @@
 
 1. How C# different with C
 
+
+
 2. What is inheritance? Does C# support multiple inheritance?
 
 3. What is the difference between an Array and ArrayList in C#?
@@ -48,5 +50,64 @@
 10. What are Properties in C#?
 
 11. What is Boxing and Unboxing in C#?
+
+
+Answer:
+
+### Late Binding vs Early Binding
+
+- Primary concept of Polymorphism
+- Binding = Connecting a method call to the actual method implementation
+- Early binding
+  - The method to be called is known at Compile Time
+  - Faster and Safer
+  - Less flexible
+  - Supports intellisense
+
+```
+PremiumCustomer p = new PremiumCustomer();
+p.CalculateBill();
+```
+
+- Late binding
+  - The method determined at runtime
+  - More flexible
+  - Slower
+  - It happens in Polymorphism using virtual/override
+  - Using dynamic
+  - Reflection
+ 
+```
+Customer c = new PremiumCustomer();
+c.CalculateBill();
+```
+
+```
+dynamic c = GetCustomer();
+c.CalculateBill();
+```
+
+### Properties
+
+- Public members of class
+- Provide ability to access private member of class
+- Basic principle of encapsulation
+
+### Boxing vs Unboxing
+
+Boxing = Converts value type (int, char, bool) to reference type (object) - Implisit conversion process
+
+```
+int num = 123;
+Object obj = num; // Boxing
+```
+
+Unboxing = Converts reference type (object) to value type (int, char, bool) - Explicit conversion process
+
+```
+int num = 123;
+Object obj = num; // Boxing
+int i = (int)obj; // Unboxing
+```
 
 
