@@ -18,7 +18,7 @@ Fetches all data into memory, then applies filters in your application.
 
 C#
 ```
-var books = con  text.Books.ToList().Where(b => b.Authorld == 1);
+var books = context.Books.ToList().Where(b => b.Authorld == 1);
 ```
 
 SQL 
