@@ -28,13 +28,13 @@ Stores frecuently accessed data for quick retrieval.
 
 # CDN 
 
-Caches cantent closer to users for speed. 
+Caches content closer to users for speed. 
 
 # Data Partitioning 
 
 Splits large database for better performance.
 
-# Database Replecation 
+# Database Replication 
 
 Duplicates data across multiple servers. 
 
@@ -68,7 +68,7 @@ Enables fast text-based search queries.
 
 # Distributed Coordination Services 
 
-Manages synchonization across distributed systems.
+Manages synchronization across distributed systems.
 
 # Heartbeat 
 
