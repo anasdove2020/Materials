@@ -35,7 +35,10 @@
     ![image](https://github.com/user-attachments/assets/3d02bb89-3e2f-450f-adb1-fbd0af307bb5)
 
 
-8. No Separation Between Layers 
+8. No Separation Between Layers
+
+![image](https://github.com/user-attachments/assets/29db6dda-98c8-4610-913f-d9173679b65d)
+
 
 9. Long Fungctions or Methods
 
