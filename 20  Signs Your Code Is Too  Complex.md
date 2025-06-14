@@ -50,17 +50,33 @@
 
 13. Inconcistent Style
 
+![image](https://github.com/user-attachments/assets/671fd498-f867-4528-82e0-7dcbfddbec62)
+
 14. Unnecessary Comments
+
+![image](https://github.com/user-attachments/assets/ca9c5ec4-16ac-44fb-af33-fab72f359862)
 
 15. Duplicated  Code 
 
+![image](https://github.com/user-attachments/assets/d852d813-e4f3-4902-9e03-e6c53c01bc59)
+
 16. Long Conditional Chains 
+
+![image](https://github.com/user-attachments/assets/694a4b10-cce0-46dd-b911-7e3434e22eda)
 
 17. Tightly Coupled Components
 
+![image](https://github.com/user-attachments/assets/ca0ba68d-89a9-490c-9071-11728f13f267)
+
 18. Poor Documentations 
+
+![image](https://github.com/user-attachments/assets/61843b2c-0f39-486a-992e-039e726845f5)
 
 19. Large Files
 
+![image](https://github.com/user-attachments/assets/7fd81ead-9764-49f6-8631-c8fc36dbeea6)
+
 20. Business Logic in Controller 
+
+![image](https://github.com/user-attachments/assets/19e6ddeb-68ed-4d80-9e68-f94ddac140c0)
 
