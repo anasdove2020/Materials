@@ -54,4 +54,19 @@ const person = { name: 'John', age: 30, job: 'Developer' }
 const { name, age } = person
 ```
 
+## 5. Rest and Spread Operators
+
+The rest operator collects multiple element into an array. The spread operator expands an iterable into individual elements.
+
+```
+// Rest Operator
+const sum = (...numbers) => numbers.reduce((acc, num) => acc + num, 0)
+
+// Spread Operator
+
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+
+const combined = [...arr1, ...arr2]
+```
 
