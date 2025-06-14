@@ -31,7 +31,9 @@
 
 
 12. Non-idiomatic Code
-    
+
+    ![image](https://github.com/user-attachments/assets/3d02bb89-3e2f-450f-adb1-fbd0af307bb5)
+
 
 14. No Separation Between Layers 
 
