@@ -5,41 +5,44 @@
 ![image](https://github.com/user-attachments/assets/da72e6f2-5046-4d4a-8d62-678007e11fb3)
 
 
-2. Lack of Clear Naming 
+2. Lack of Clear Naming
 
-3. Multiple Responsibilities in One Class
+  ![image](https://github.com/user-attachments/assets/70e75431-43c2-4254-b213-88270cc94204)
 
-4. Overuse of Global Variables 
 
-5. Magic Numbers
+4. Multiple Responsibilities in One Class
 
-6. God Objects
+5. Overuse of Global Variables 
 
-7. Non-idiomatic Code 
+6. Magic Numbers
 
-8. No Separation Between Layers 
+7. God Objects
 
-9. Long Fungctions or Methods
+8. Non-idiomatic Code 
 
-10. Too Many Parameters 
+9. No Separation Between Layers 
 
-11. Too Many Dependencies
+10. Long Fungctions or Methods
 
-12. Unclear Flow of Control 
+11. Too Many Parameters 
 
-13. Inconcistent Style
+12. Too Many Dependencies
 
-14. Unnecessary Comments
+13. Unclear Flow of Control 
 
-15. Duplicated  Code 
+14. Inconcistent Style
 
-16. Long Conditional Chains 
+15. Unnecessary Comments
 
-17. Tightly Coupled Components
+16. Duplicated  Code 
 
-18. Poor Documentations 
+17. Long Conditional Chains 
 
-19. Large Files
+18. Tightly Coupled Components
 
-20. Business Logic in Controller 
+19. Poor Documentations 
+
+20. Large Files
+
+21. Business Logic in Controller 
 
