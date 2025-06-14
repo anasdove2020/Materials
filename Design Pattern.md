@@ -29,17 +29,12 @@ Encapsulates a request as an object, thereby allowing for parameterization of cl
 ![image](https://github.com/user-attachments/assets/82d03676-1f61-4fef-ac8a-9afbe1bbd10e)
 
 
-
-
-
-
-
-
-
-
 ### Abstract Factory 
 
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes.  
+
+![image](https://github.com/user-attachments/assets/ce8a6110-06c1-48fe-ade9-268cc066311d)
+
 
 
 
