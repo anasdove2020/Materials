@@ -2,83 +2,83 @@
 
 You Must Know Before Your Interview
 
-# DNS 
+# 1. DNS 
 
 Translates domain names into IP addresses.
 
-# Load Balancar 
+# 2.Load Balancar 
 
 Distributes traffic across multiple servers.
 
-#  Api Gateway 
+# 3. Api Gateway 
 
 Manages API requests and responses 
 
-# Forward Proxy
+# 4. Forward Proxy
 
 Routes client requests through an intermediary.
 
-# Reverse Proxy 
+# 5. Reverse Proxy 
 
 Protectc and optimizes backend services. 
 
-# Caching 
+# 6. Caching 
 
 Stores frecuently accessed data for quick retrieval.
 
-# CDN 
+# 7. CDN 
 
 Caches content closer to users for speed. 
 
-# Data Partitioning 
+# 8. Data Partitioning 
 
 Splits large database for better performance.
 
-# Database Replication 
+# 9. Database Replication 
 
 Duplicates data across multiple servers. 
 
-# Messaging Systems
+# 10.Messaging Systems
 
 Distributes traffic across multiple servers.
 
-# Microservices 
+# 11. Microservices 
 
 Breaks applications into small, independent services. 
 
-# NoSQL Database 
+# 12. NoSQL Database 
 
 Handles unstuctured, high - volume data efficiently.
 
-# Database Index
+# 13. Database Index
 
 Speeds up database queries and retrieval.
 
-# Distributed File Systems 
+# 14. Distributed File Systems 
 
 Stores files across multiple machines.
 
-# Notification System 
+# 15. Notification System 
 
 Breaks applications into small independent services.
 
-# Full-Text Search 
+# 16. Full-Text Search 
 
 Enables fast text-based search queries. 
 
-# Distributed Coordination Services 
+# 17. Distributed Coordination Services 
 
 Manages synchronization across distributed systems.
 
-# Heartbeat 
+# 18. Heartbeat 
 
 Monitors server health and availability. 
 
-# Rate Limiting 
+# 19. Rate Limiting 
 
 Controls API requst rates to prevent overload.
 
-# Circuit Breaker
+# 20. Circuit Breaker
 
 Prevents cascading failures in microservices.
 
