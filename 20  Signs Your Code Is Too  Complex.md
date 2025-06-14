@@ -22,33 +22,36 @@
 
 8. Magic Numbers
 
-9. God Objects
+   ![image](https://github.com/user-attachments/assets/b2aa3920-e5f5-4757-8211-10b283ae1c2c)
 
-10. Non-idiomatic Code 
 
-11. No Separation Between Layers 
+10. God Objects
 
-12. Long Fungctions or Methods
+11. Non-idiomatic Code 
 
-13. Too Many Parameters 
+12. No Separation Between Layers 
 
-14. Too Many Dependencies
+13. Long Fungctions or Methods
 
-15. Unclear Flow of Control 
+14. Too Many Parameters 
 
-16. Inconcistent Style
+15. Too Many Dependencies
 
-17. Unnecessary Comments
+16. Unclear Flow of Control 
 
-18. Duplicated  Code 
+17. Inconcistent Style
 
-19. Long Conditional Chains 
+18. Unnecessary Comments
 
-20. Tightly Coupled Components
+19. Duplicated  Code 
 
-21. Poor Documentations 
+20. Long Conditional Chains 
 
-22. Large Files
+21. Tightly Coupled Components
 
-23. Business Logic in Controller 
+22. Poor Documentations 
+
+23. Large Files
+
+24. Business Logic in Controller 
 
