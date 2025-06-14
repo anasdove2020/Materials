@@ -22,15 +22,12 @@ Ensures that a class has only one instance and provides a global point of access
 ![image](https://github.com/user-attachments/assets/d9326e26-abb7-415c-849f-d04f4901fa85)
 
 
-
-
-
-
-
-
 ### Command
 
 Encapsulates a request as an object, thereby allowing for parameterization of clints with queues, request, and operation, as well as support for undoable operations.
+
+![image](https://github.com/user-attachments/assets/82d03676-1f61-4fef-ac8a-9afbe1bbd10e)
+
 
 
 
