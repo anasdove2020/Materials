@@ -12,7 +12,8 @@ provides an interface for creating objects in a superclass but allows subclasses
 
 Constructs a complex object step by step, allowing for greater control over the construction process and enabling different representations of the object.
 
-|<< interface >> Builder 
+![image](https://github.com/user-attachments/assets/69f4e1f7-f311-41a9-8c72-49e4fe20f452)
+
 
 
 
