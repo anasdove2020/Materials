@@ -79,3 +79,19 @@ const name = 'React';
 const version = 18;
 const greeting = `Hello, ${name}! You are using version ${version}`;
 ```
+
+## 7. Promised and async/await
+
+Promises and async/await are used for handling asyncronous operations.
+
+```
+const fetchData = () => {
+  return new Promise(resolve => {
+    setTimeout(() => resolve('Data fetched !'), 2000);
+  })
+}
+
+async function getData() {
+  const result = await fetchData();
+}
+```
