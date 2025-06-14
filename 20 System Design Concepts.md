@@ -6,7 +6,7 @@ You Must Know Before Your Interview
 
 Translates domain names into IP addresses.
 
-# 2.Load Balancar 
+# 2. Load Balancar 
 
 Distributes traffic across multiple servers.
 
