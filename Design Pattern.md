@@ -15,16 +15,12 @@ Constructs a complex object step by step, allowing for greater control over the 
 ![image](https://github.com/user-attachments/assets/69f4e1f7-f311-41a9-8c72-49e4fe20f452)
 
 
-
-
-
-
-
-
-
 ### Singleton 
 
-Ensures that a class has only one instance and provides a global point of access to that instance
+Ensures that a class has only one instance and provides a global point of access to that instance.
+
+![image](https://github.com/user-attachments/assets/d9326e26-abb7-415c-849f-d04f4901fa85)
+
 
 
 
