@@ -38,7 +38,7 @@ Splits large database for better performance.
 
 Duplicates data across multiple servers. 
 
-# 10.Messaging Systems
+# 10. Messaging Systems
 
 Distributes traffic across multiple servers.
 
