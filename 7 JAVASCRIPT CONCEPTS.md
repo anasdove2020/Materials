@@ -70,3 +70,12 @@ const arr2 = [4, 5, 6];
 const combined = [...arr1, ...arr2]
 ```
 
+## 6. Template Literals
+
+Template Literals allow embedded expressions and multi-line strings.
+
+```
+const name = 'React';
+const version = 18;
+const greeting = `Hello, ${name}! You are using version ${version}`;
+```
