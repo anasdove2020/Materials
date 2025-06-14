@@ -46,11 +46,11 @@ Distributes traffic across multiple servers.
 
 Breaks applications into small, independent services. 
 
-# 13. NoSQL Database 
+# 12. NoSQL Database 
 
 Handles unstuctured, high - volume data efficiently.
 
-# 12. Database Index
+# 13. Database Index
 
 Speeds up database queries and retrieval.
 
