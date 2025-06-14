@@ -46,6 +46,8 @@
 
 12. Unclear Flow of Control 
 
+![image](https://github.com/user-attachments/assets/25c24668-8a2c-4de7-9c91-55e9f1afe069)
+
 13. Inconcistent Style
 
 14. Unnecessary Comments
