@@ -2,9 +2,7 @@
 
 1. Too Many Nested Loops
 
-
-
-
+![image](https://github.com/user-attachments/assets/da72e6f2-5046-4d4a-8d62-678007e11fb3)
 
 
 2. Lack of Clear Naming 
