@@ -42,19 +42,12 @@ creates new object, known as the prototytpe, rather than creating instances from
 
 ![image](https://github.com/user-attachments/assets/53dcad16-2784-4c08-a498-768d149d8348)
 
-
-
-
-
-
-
-
-
-
-
 ### Chain of Responsibility
 
 Passes a reques along a chain of handlers, where each handler decides either to process the request or pass it the next handler in the chain.
+
+![image](https://github.com/user-attachments/assets/e34ea726-404a-41df-9487-59213fba1af6)
+
 
 
 
