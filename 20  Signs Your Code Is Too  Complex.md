@@ -27,31 +27,34 @@
 
 10. God Objects
 
-11. Non-idiomatic Code 
+    ![image](https://github.com/user-attachments/assets/7ebe6632-1f82-4844-8aaa-b49eea62757d)
 
-12. No Separation Between Layers 
 
-13. Long Fungctions or Methods
+12. Non-idiomatic Code 
 
-14. Too Many Parameters 
+13. No Separation Between Layers 
 
-15. Too Many Dependencies
+14. Long Fungctions or Methods
 
-16. Unclear Flow of Control 
+15. Too Many Parameters 
 
-17. Inconcistent Style
+16. Too Many Dependencies
 
-18. Unnecessary Comments
+17. Unclear Flow of Control 
 
-19. Duplicated  Code 
+18. Inconcistent Style
 
-20. Long Conditional Chains 
+19. Unnecessary Comments
 
-21. Tightly Coupled Components
+20. Duplicated  Code 
 
-22. Poor Documentations 
+21. Long Conditional Chains 
 
-23. Large Files
+22. Tightly Coupled Components
 
-24. Business Logic in Controller 
+23. Poor Documentations 
+
+24. Large Files
+
+25. Business Logic in Controller 
 
