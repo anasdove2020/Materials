@@ -9,7 +9,7 @@ var books = context.Books.Where(b => b.Authorld == 1);
 
 SQL
 ```
-SELECT*FROM Books WHERE Authorld = 1;
+SELECT * FROM Books WHERE Authorld = 1;
 ```
 
 # IEnumerable
@@ -23,6 +23,6 @@ var books = con  text.Books.ToList().Where(b => b.Authorld == 1);
 
 SQL 
 ```
-SELECT*FROM Books;
+SELECT * FROM Books;
 ```
 
