@@ -36,18 +36,12 @@ Provides an interface for creating families of related or dependent objects with
 ![image](https://github.com/user-attachments/assets/ce8a6110-06c1-48fe-ade9-268cc066311d)
 
 
-
-
-
-
-
-
-
-
-
 ### Prototype
 
-creates new object, known as the prototytpe, rather than creating instances from scratch .
+creates new object, known as the prototytpe, rather than creating instances from scratch.
+
+![image](https://github.com/user-attachments/assets/53dcad16-2784-4c08-a498-768d149d8348)
+
 
 
 
