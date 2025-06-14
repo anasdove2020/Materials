@@ -42,6 +42,8 @@
 
 11. Too Many Dependencies
 
+![image](https://github.com/user-attachments/assets/e97dac00-c10d-4853-a8b1-a4be3d2827d6)
+
 12. Unclear Flow of Control 
 
 13. Inconcistent Style
