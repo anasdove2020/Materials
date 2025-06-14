@@ -44,5 +44,14 @@ const b = fruits.splice(1, 2, 'strawberry');
 
 ```
 
+## 4. Destructuring
+
+Destructuring allows you to extract values from objects or arrays into distict variables.
+
+```
+const person = { name: 'John', age: 30, job: 'Developer' }
+
+const { name, age } = person
+```
 
 
