@@ -30,31 +30,32 @@
     ![image](https://github.com/user-attachments/assets/7ebe6632-1f82-4844-8aaa-b49eea62757d)
 
 
-12. Non-idiomatic Code 
+12. Non-idiomatic Code
+    
 
-13. No Separation Between Layers 
+14. No Separation Between Layers 
 
-14. Long Fungctions or Methods
+15. Long Fungctions or Methods
 
-15. Too Many Parameters 
+16. Too Many Parameters 
 
-16. Too Many Dependencies
+17. Too Many Dependencies
 
-17. Unclear Flow of Control 
+18. Unclear Flow of Control 
 
-18. Inconcistent Style
+19. Inconcistent Style
 
-19. Unnecessary Comments
+20. Unnecessary Comments
 
-20. Duplicated  Code 
+21. Duplicated  Code 
 
-21. Long Conditional Chains 
+22. Long Conditional Chains 
 
-22. Tightly Coupled Components
+23. Tightly Coupled Components
 
-23. Poor Documentations 
+24. Poor Documentations 
 
-24. Large Files
+25. Large Files
 
-25. Business Logic in Controller 
+26. Business Logic in Controller 
 
