@@ -14,7 +14,11 @@ provides an interface for creating objects in a superclass but allows subclasses
 
 | ConcreteProduct |
 |:---:|
-|+ create []: void |
+|+ create []: void | 
+
+| ConcreteCreator |
+|:---:|
+|+ create Product(): Product |
 
 
 
