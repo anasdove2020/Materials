@@ -4,21 +4,8 @@
 
 provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created.
 
-| << Interface >> Product |     
-|:---:|
-|+ create[]: void|
+![image](https://github.com/user-attachments/assets/40973a1d-823c-45c4-a0ed-a5ecfe4872ff)
 
-| << Abstact >> Creator |
-|:---:|
-|+ create Product(): Product |
-
-| ConcreteProduct |
-|:---:|
-|+ create []: void | 
-
-| ConcreteCreator |
-|:---:|
-|+ create Product(): Product |
 
 
 ### Builder 
