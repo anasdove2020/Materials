@@ -38,6 +38,8 @@
 
 10. Too Many Parameters 
 
+![image](https://github.com/user-attachments/assets/69bbccad-cb28-478c-863b-a901cc848351)
+
 11. Too Many Dependencies
 
 12. Unclear Flow of Control 
