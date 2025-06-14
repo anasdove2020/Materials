@@ -10,54 +10,54 @@
   ![image](https://github.com/user-attachments/assets/70e75431-43c2-4254-b213-88270cc94204)
 
 
-4. Multiple Responsibilities in One Class
+3. Multiple Responsibilities in One Class
 
    ![image](https://github.com/user-attachments/assets/f41e0449-7243-4d12-ab7a-c15b13335ba1)
 
 
-6. Overuse of Global Variables
+4. Overuse of Global Variables
 
    ![image](https://github.com/user-attachments/assets/eef4f9a4-7bf6-45d6-831c-b7738620c2d7)
 
 
-8. Magic Numbers
+5. Magic Numbers
 
    ![image](https://github.com/user-attachments/assets/b2aa3920-e5f5-4757-8211-10b283ae1c2c)
 
 
-10. God Objects
+6. God Objects
 
     ![image](https://github.com/user-attachments/assets/7ebe6632-1f82-4844-8aaa-b49eea62757d)
 
 
-12. Non-idiomatic Code
+7. Non-idiomatic Code
 
     ![image](https://github.com/user-attachments/assets/3d02bb89-3e2f-450f-adb1-fbd0af307bb5)
 
 
-14. No Separation Between Layers 
+8. No Separation Between Layers 
 
-15. Long Fungctions or Methods
+9. Long Fungctions or Methods
 
-16. Too Many Parameters 
+10. Too Many Parameters 
 
-17. Too Many Dependencies
+11. Too Many Dependencies
 
-18. Unclear Flow of Control 
+12. Unclear Flow of Control 
 
-19. Inconcistent Style
+13. Inconcistent Style
 
-20. Unnecessary Comments
+14. Unnecessary Comments
 
-21. Duplicated  Code 
+15. Duplicated  Code 
 
-22. Long Conditional Chains 
+16. Long Conditional Chains 
 
-23. Tightly Coupled Components
+17. Tightly Coupled Components
 
-24. Poor Documentations 
+18. Poor Documentations 
 
-25. Large Files
+19. Large Files
 
-26. Business Logic in Controller 
+20. Business Logic in Controller 
 
