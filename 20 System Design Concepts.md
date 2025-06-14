@@ -30,6 +30,61 @@ Stores frecuently accessed data for quick retrieval.
 
 Caches cantent closer to users for speed. 
 
-# 
+# Data Partitioning 
+
+Splits large database for better performance.
+
+# Database Replecation 
+
+Duplicates data across multiple servers. 
+
+# Messaging Systems
+
+Distributes traffic across multiple servers.
+
+# Microservices 
+
+Breaks applications into small, independent services. 
+
+# NoSQL Database 
+
+Handles unstuctured, high - volume data efficiently.
+
+# Database Index
+
+Speeds up database queries and retrieval.
+
+# Distributed File Systems 
+
+Stores files across multiple machines.
+
+# Notification System 
+
+Breaks applications into small independent services.
+
+# Full-Text Search 
+
+Enables fast text-based search queries. 
+
+# Distributed Coordination Services 
+
+Manages synchonization across distributed systems.
+
+# Heartbeat 
+
+Monitors server health and availability. 
+
+# Rate Limiting 
+
+Controls API requst rates to prevent overload.
+
+# Circuit Breaker
+
+Prevents cascading failures in microservices.
+
+
+
+
+
 
 
