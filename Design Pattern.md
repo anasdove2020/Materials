@@ -74,4 +74,19 @@ creates new object, known as the prototytpe, rather than creating instances from
 
 ### Chain of Responsibility
 
+Passes a reques along a chain of handlers, where each handler decides either to process the request or pass it the next handler in the chain.
+
+
+
+
+
+
+
+
+
+### Iterator 
+
+Provides a way to access the element of a collection sequentially without exposing the underlying representation.
+
+
 
