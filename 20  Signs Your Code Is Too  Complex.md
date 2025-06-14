@@ -12,37 +12,40 @@
 
 4. Multiple Responsibilities in One Class
 
-5. Overuse of Global Variables 
+   ![image](https://github.com/user-attachments/assets/f41e0449-7243-4d12-ab7a-c15b13335ba1)
 
-6. Magic Numbers
 
-7. God Objects
+6. Overuse of Global Variables 
 
-8. Non-idiomatic Code 
+7. Magic Numbers
 
-9. No Separation Between Layers 
+8. God Objects
 
-10. Long Fungctions or Methods
+9. Non-idiomatic Code 
 
-11. Too Many Parameters 
+10. No Separation Between Layers 
 
-12. Too Many Dependencies
+11. Long Fungctions or Methods
 
-13. Unclear Flow of Control 
+12. Too Many Parameters 
 
-14. Inconcistent Style
+13. Too Many Dependencies
 
-15. Unnecessary Comments
+14. Unclear Flow of Control 
 
-16. Duplicated  Code 
+15. Inconcistent Style
 
-17. Long Conditional Chains 
+16. Unnecessary Comments
 
-18. Tightly Coupled Components
+17. Duplicated  Code 
 
-19. Poor Documentations 
+18. Long Conditional Chains 
 
-20. Large Files
+19. Tightly Coupled Components
 
-21. Business Logic in Controller 
+20. Poor Documentations 
+
+21. Large Files
+
+22. Business Logic in Controller 
 
